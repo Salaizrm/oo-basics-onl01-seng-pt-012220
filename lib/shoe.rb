@@ -11,7 +11,7 @@ class Shoe
     @brand
   end
   
-  def condition=(condition = "tattered")
+  def condition=(condition)
     @condition = condition
   end
   
