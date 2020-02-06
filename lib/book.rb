@@ -8,27 +8,8 @@ class Book
     @title
   end
   
-  def author_name (name)
-    @name = name
+  def author=(author)
+    @author = author
   end
   
-  def name
-    @name
-  end
-  
-  def page_count (index)
-    @index = index
-  end
-  
-  def index
-    @index
-  end
-  
-  def genre (genres)
-    @genres = genres
-  end
-  
-  def genres
-    @genres
-  end
 end
